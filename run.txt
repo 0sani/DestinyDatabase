@@ -1,0 +1,122 @@
+The fields in this database are:
++----+----+----+--------+-------+
+|name|tier|type|category|element|
++----+----+----+--------+-------+
+Commands: 
+Add: add a new entry to the start of the list
+Search: Enter a query and a field to search for all records that match
+Get: Gets a detailed view of an item given an index
+Delete: deletes an item at a given index
+Display: Displays the list of records
+Help: Displays this menu
+Enter an option (q to quit): display
+  0. Riiswalker, Legendary Shotgun, Kinetic Kinetic
+  1. Scathelocke, Legendary Auto Rifle, Kinetic Kinetic
+  2. Peacebond, Legendary Sidearm, Kinetic Stasis
+  3. Multimach CCX, Legendary Submachine Gun, Kinetic Kinetic
+  4. Fatebringer, Legendary Hand Cannon, Kinetic Kinetic
+  5. Succession, Legendary Sniper Rifle, Kinetic Kinetic
+  6. Thorn, Exotic Hand Cannon, Kinetic Kinetic
+  7. Dead Man's Tale, Exotic Scout Rifle, Kinetic Kinetic
+  8. Chroma Rush, Legendary Auto Rifle, Kinetic Kinetic
+========================================
+Enter an option (q to quit): add
+Enter the name: Jian 7 Rifle
+Enter the tier: Legendary
+Enter the type: Pulse Rifle 
+Enter the category: Energy
+Enter the element: Arc 
+Enter the recoil stat: 80
+Enter the aimAssist stat: 64
+Enter the impact stat: 29
+Enter the range stat: 47
+Enter the blastRadius stat: 0
+Enter the velocity stat: 0
+Enter the stability stat: 50
+Enter the ROF stat: 390
+Enter the reload stat: 25
+Enter the mag stat: 42
+Enter the equip stat: 68
+Enter the chargeTime stat: 0
+Enter the drawTime stat: 0
+Enter the accuracy stat: 0
+Enter a perk: Adaptive Frame*
+Enter a perk (q to quit): SLO-12 Post*
+Enter a perk (q to quit): Extended Mag*
+Enter a perk (q to quit): Armor-Piercing Rounds
+Enter a perk (q to quit): Grave Robber*
+Enter a perk (q to quit): Outlaw*
+Enter a perk (q to quit): Tier 3 Weapon* 
+Enter a perk (q to quit): Tracker Disabled*
+Enter a perk (q to quit): Kill Tracker
+Enter a perk (q to quit): Crucible Tracker
+Enter a perk (q to quit): q
+Inserted Jian 7 Rifle, Legendary Pulse Rifle, Energy Arc
+===========================
+Jian 7 Rifle, Legendary Pulse Rifle, Energy Arc
+Statistics:
+Recoil: 80
+AA: 64
+Impact: 29
+Range: 47
+Blast: 0
+Velo: 0
+Stabil: 50
+ROF: 390
+Reload 25
+Mag: 42
+Equip: 68
+Charge: 0
+Drae. 0
+Acc: 0
+Perks
+Adaptive Frame*
+SLO-12 Post*
+Extended Mag*
+Armor-Piercing Rounds
+Grave Robber*
+Outlaw*
+Tier 3 Weapon*
+Tracker Disabled*
+Kill Tracker
+Crucible Tracker
+========================================
+Enter an option (q to quit): display
+  0. Jian 7 Rifle, Legendary Pulse Rifle, Energy Arc
+  1. Riiswalker, Legendary Shotgun, Kinetic Kinetic
+  2. Scathelocke, Legendary Auto Rifle, Kinetic Kinetic
+  3. Peacebond, Legendary Sidearm, Kinetic Stasis
+  4. Multimach CCX, Legendary Submachine Gun, Kinetic Kinetic
+  5. Fatebringer, Legendary Hand Cannon, Kinetic Kinetic
+  6. Succession, Legendary Sniper Rifle, Kinetic Kinetic
+  7. Thorn, Exotic Hand Cannon, Kinetic Kinetic
+  8. Dead Man's Tale, Exotic Scout Rifle, Kinetic Kinetic
+  9. Chroma Rush, Legendary Auto Rifle, Kinetic Kinetic
+========================================
+Enter an option (q to quit): search
+The fields in this database are:
++----+----+----+--------+-------+
+|name|tier|type|category|element|
++----+----+----+--------+-------+
+Field: type
+Query: Auto Rifle
+Searching for "Auto Rifle" in field "type"... 
+  2. Scathelocke, Legendary Auto Rifle, Kinetic Kinetic
+  9. Chroma Rush, Legendary Auto Rifle, Kinetic Kinetic
+========================================
+Enter an option (q to quit): delete
+Enter the index of the record you wnat to delete: 2
+Deleted: Scathelocke, Legendary Auto Rifle, Kinetic Kinetic
+========================================
+Enter an option (q to quit): display
+  0. Jian 7 Rifle, Legendary Pulse Rifle, Energy Arc
+  1. Riiswalker, Legendary Shotgun, Kinetic Kinetic
+  2. Peacebond, Legendary Sidearm, Kinetic Stasis
+  3. Multimach CCX, Legendary Submachine Gun, Kinetic Kinetic
+  4. Fatebringer, Legendary Hand Cannon, Kinetic Kinetic
+  5. Succession, Legendary Sniper Rifle, Kinetic Kinetic
+  6. Thorn, Exotic Hand Cannon, Kinetic Kinetic
+  7. Dead Man's Tale, Exotic Scout Rifle, Kinetic Kinetic
+  8. Chroma Rush, Legendary Auto Rifle, Kinetic Kinetic
+========================================
+Enter an option (q to quit): q
